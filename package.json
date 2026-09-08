@@ -1,0 +1,23 @@
+{
+  "name": "smart-canteen",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart Canteen Prototype - Milestone 0 Foundation",
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "build:frontend": "npm run build --prefix frontend",
+    "build:backend": "npm run build --prefix backend",
+    "build": "npm run build:frontend && npm run build:backend"
+  },
+  "keywords": [
+    "smart-canteen",
+    "react",
+    "typescript",
+    "express",
+    "supabase",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "ISC"
+}
